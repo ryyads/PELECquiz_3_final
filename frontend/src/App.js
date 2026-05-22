@@ -19,7 +19,7 @@ function App() {
 
   let rawApiUrl =
     import.meta.env.VITE_API_URL ||
-    'http://127.0.0.1:8000/api/tasks/'
+    'https://raebinn.pythonanywhere.com/api/tasks/'
 
   const API_URL = rawApiUrl.endsWith('/')
     ? rawApiUrl
