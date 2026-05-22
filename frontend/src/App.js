@@ -24,8 +24,7 @@ function App() {
   const API_URL = rawApiUrl.endsWith('/')
     ? rawApiUrl
     : `${rawApiUrl}/`
-
-  // FETCH TASKS
+  console.log(import.meta.env.VITE_API_URL)
 
   const fetchTasks = useCallback(async () => {
 
